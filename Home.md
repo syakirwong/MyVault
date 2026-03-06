@@ -1,18 +1,21 @@
 ---
-tags: [home]
+tags: [home, gdd]
 ---
 
-# MyVault
+# Stormbound Online
 
-Personal vault for capturing and connecting ideas.
+Reactive text-based MMORPG — build experimentation through dynamic UI, not graphics.
 
-## Quick Links
-- [[Ideas]] — where new ideas live
-- [[Notes]] — daily notes and thoughts
+## Start Here
+- [[GDD Hub]] — master index
 
-## Structure
-- **Ideas/** — raw ideas, seeds, concepts
-- **Notes/** — daily notes, journal entries
-- **Resources/** — reference material, links, clippings
-- **Templates/** — reusable note templates
-- **Archive/** — completed or retired ideas
+## Sections
+- [[Gameplay Loops]] | [[Progression Systems]] | [[Alignment System]]
+- [[Gem Identity System]] | [[Gem System]] | [[Gem System Math]]
+- [[Skill Gems Reference]] | [[Modifier Gems Reference]]
+- [[Combat System]]
+- [[PvE Structure]] | [[PvP Structure]] | [[World Design]] | [[NPC System]]
+- [[Economy Model]] | [[Economy Stress Test]] | [[Crafting System]] | [[Trade System]]
+- [[UI Design]] | [[Cosmetic System]]
+- [[Creator Ecosystem]] | [[Social Hubs]]
+- [[MVP Design]] | [[Monetization]] | [[Long-Term Vision]]

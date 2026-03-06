@@ -1,6 +1,9 @@
 {
-  "accentColor": "",
-  "interfaceFontSize": 16,
-  "textFontSize": 16,
-  "baseFontSize": 16
+  "accentColor": "#00c8ff",
+  "baseFontSize": 16,
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "game-theme"
+  ],
+  "theme": "obsidian"
 }
