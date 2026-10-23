@@ -21,6 +21,7 @@ A **single-player, choice-driven narrative game** with a strategy layer, played 
 2. **A crew worth losing.** Six characters you get to know, rely on, and can lose. See [[Crew & Bonds]].
 3. **Strategy without combat.** You win by sending the right person to the right problem and spending limited days well. See [[Dispatch Board]] and [[Voyage Calendar]].
 4. **Reads like a comic, plays on a phone.** A motion comic with animated panels, one thumb. See [[Motion Comic Presentation]].
+5. **Dark, with light in it.** Violence, gore, nudity, grief and nihilism, set against calm, joy, purpose and peace. Mature rating. See [[Tone & Content]].
 
 ---
 
@@ -91,6 +92,7 @@ See [[Story Structure#Episode 1 — Salvage Rights]].
 | [[Voyage Calendar]] | Day structure, supplies, deadlines |
 | [[Motion Comic Presentation]] | Panel language, animation, mobile layout, accessibility, art plan |
 | [[Narrative Tech Plan]] | TypeScript + ink, saves, PWA, build order |
+| [[Tone & Content]] | Emotional range, rules for dark content, rating, content settings, distribution |
 
 ## Open Questions
 
