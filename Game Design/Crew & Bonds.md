@@ -14,7 +14,7 @@ You choose a name and pronouns. You have no gem of your own. Instead you are the
 
 ## The Crew of the Halyard
 
-Traits use the Six Stats from [[Stats System]] on a 1-5 scale.
+Traits use the Six Stats from [[Stats System]] on a 1-5 scale. Each crew member's people, clan and history are in [[Peoples, Clans & Cast]]; their crafts (Oriel botany, Hesk chemistry, Nana and Brannoc smithing) are in [[Workshop & Crafts]].
 
 | Crew | Gem | Role | Strong traits | Flaw | Wants |
 |---|---|---|---|---|---|

@@ -18,6 +18,8 @@ status: active
 | **Core stability** | 0-100 | Using the core's power, risky choices | Endings; at low stability it acts on its own |
 | **Faction standing** | -3 to +3 per major faction | Deals, betrayals, contracts | Who helps you, who hunts you |
 | **Captain's reputation** | Tags such as *Merciful*, *Ruthless*, *Reckless* | Patterns across several choices (from [[Behavioral Identity]]) | Crew dialogue: they comment on who you're becoming |
+| **Relationships** | Friend / rival / romance stage / married / separated / ex, plus relationship strain | Dusk answers, loyalty to partners, betrayals | Partner scenes, jealousy, weddings, divorces ([[Relationships & Life Events]]) |
+| **Legal status** | Free / wanted in a port / jailed (per crew member and captain) | Failed illegal calls, Luminari standing | Who's available, jail arcs, which ports are safe |
 
 Crew loyalty at **0** means the crew member leaves at the next port. At **10** they'll follow you into something they disagree with, once.
 

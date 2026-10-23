@@ -53,6 +53,22 @@ The core's state at the finale (Radiant, Corrupted or Unbound, and how *stable* 
 
 Between Dawn scenes, the Dispatch Board ([[Dispatch Board]]) keeps the world moving with salvage jobs, distress calls and faction contracts. Some calls are tied to the story (day 2's tow comes back on day 5).
 
+## Lore in the Story
+
+The world's history ([[Lore & Narrative]]) isn't explained. It's **found, sung, argued about and used**.
+
+| Source | What it is | Example |
+|---|---|---|
+| **Lattice Memories** | Found on salvage calls and near the core. Short pre-Shattering vignettes shown as faded panels | A city on dry land where the archipelago's sea is now |
+| **Songs** | Tidefolk history, sung by Pod Saltmere and later by Oriel | A song that describes the Shattering *from below* |
+| **Biased tellings** | Each faction tells the Shattering its own way, and they contradict each other | Luminari: hubris. Hollow Court: inevitable. Driftborn: the Lattice chose |
+| **The Captain's Library** | Books, charts and letters you collect. Read them at Dusk instead of talking to crew | A purification-patrol logbook with Marlo's signature in it |
+| **Objects and bodies** | Gem-scars, faction tattoos, the Sentinel's runes | The grey man's hand tells you what the Hollow Court values |
+
+**Lore is a key.** Knowing a piece of lore unlocks choices: speaking the Sentinel's rune-name to make it stop, quoting a Luminari scripture back at an inspector, singing the right verse to a Tidefolk pod.
+
+**Rules:** at most one lore beat per scene, and never a lecture. Accounts are allowed to contradict each other, because the truth about the Shattering is the season's mystery, and the player decides which version to believe.
+
 ## Writing Guidelines
 
 - A scene opens on action or a question, never on exposition.
