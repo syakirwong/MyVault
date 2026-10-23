@@ -85,6 +85,8 @@ See [[Story Structure#Episode 1 — Salvage Rights]].
 
 | Note | Covers |
 |---|---|
+| [[Story Bible]] | The hidden truth of the Lattice and the Stormspire, the captain, the core, Episode 1's cast, threads, clocks and the prologue |
+| [[Episode 1 Decision Tree]] | Every Episode 1 decision with diagrams, state variables, crew reactions, the day-7 hearing and the three endings |
 | [[Story Structure]] | Season arc, episode format, branching model, Episode 1 beats |
 | [[Choice & Consequence]] | State model, consequence types, feedback rules, writing rules |
 | [[Crew & Bonds]] | The six crew, traits, bonds, gem strain, losing crew |
@@ -106,5 +108,5 @@ See [[Story Structure#Episode 1 — Salvage Rights]].
 ## Open Questions
 
 - Business model: premium per season, or episode 1 free and the rest paid? (No pay-to-win either way.)
-- Captain customization: name and pronouns only, or a chosen background as well?
+- ~~Captain customization~~ Resolved 2026-10-23: name, pronouns and one of three backgrounds ([[Story Bible#Customisation]]).
 - Illustration budget: typographic comic only, or commissioned character portraits? (See [[Motion Comic Presentation#Art Plan]].)

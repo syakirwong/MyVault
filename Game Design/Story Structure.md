@@ -51,6 +51,8 @@ The core's state at the finale (Radiant, Corrupted or Unbound, and how *stable* 
 | 6 | Mutiny brews. Two crew want to sell the core | Side with them, overrule them, or put it to a vote | Loyalty; someone may leave at Port Haven |
 | 7 | Finale: back at Port Haven, all three factions are waiting | Who do you bring it to, or do you keep it? | **3 episode endings** → episode 2 opening |
 
+The full branching, state and endings for these days are in [[Episode 1 Decision Tree]]; the truth behind them is in [[Story Bible]].
+
 Between Dawn scenes, the Dispatch Board ([[Dispatch Board]]) keeps the world moving with salvage jobs, distress calls and faction contracts. Some calls are tied to the story (day 2's tow comes back on day 5).
 
 ## Lore in the Story
