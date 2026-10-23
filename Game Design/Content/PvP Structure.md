@@ -79,7 +79,7 @@ Adapted from PKO's bar PvP, where challengers set the match rules. These are soc
 
 Adapted from PKO's Chaos Argent: **the reward pool is split among survivors.**
 
-- Runs in scheduled [[PvE Structure#Tide Windows|Tide Windows]], 3 per day.
+- Runs in scheduled [[PvE Structure#Tide Windows (Scheduled Content)|Tide Windows]], 3 per day.
 - 20-40 players, solo entry. Guildmates share immunity ([[Guild System#PvP Integration]]), but at most 5 members of one guild per instance.
 - 15-minute match. The arena collapses in stages, and defeated players are out.
 - A fixed pool of Honor and PvP tokens per instance is split **equally among everyone alive at the end**. Fewer survivors means a bigger share each.
