@@ -94,9 +94,11 @@ See [[Story Structure#Episode 1 — Salvage Rights]].
 | [[Narrative Tech Plan]] | TypeScript + ink, saves, PWA, build order |
 | [[Tone & Content]] | Emotional range, rules for dark content, rating, content settings, distribution |
 | [[Relationships & Life Events]] | Friendship, rivalry, romance, marriage, divorce, jail, other life events |
+| [[Gear, Relics & Reliquaries]] | Gear tiers and slots, six named Legendary relics, Mythic reliquaries and how to open them, fairness rules |
 | [[Professions & Advancement]] | Professions, tiers, branching story-decided Paths for each crew member and the captain |
 | [[Workshop & Crafts]] | Botany, chemistry and smithing aboard ship: crafted items for calls, story choices, gem strain, the psyche and jailbreaks |
 | [[Peoples, Clans & Cast]] | The archipelago's peoples (Islanders, Tidefolk, Shardkin, the Quieted, Wakened), clans, crew backgrounds, the relationship web |
+| [[Character Dynamics]] | One-sided layered relationships, how each crew member sees the others, the secrets knowledge graph, cliques, triangles, Below Decks scenes, power and mutiny |
 | [[Lineage, Pacts & Diplomacy]] | Family trees and inheritance, cultural traditions, blood pacts, marriage alliances, fosterage, treaties; kinship blocks romance |
 | [[Psyche & Trauma]] | Stress, wounds and triggers, breaking points, the captain's unreliable mind; the main source of unpredictability |
 

@@ -8,7 +8,7 @@ status: active
 
 # Motion Comic Presentation
 
-The game reads like an animated comic: newsprint paper, heavy ink, halftone dots, print-ink colours. Panels slide in as the story happens. Direction set by the 2026-10-23 combat prototype.
+The game reads like an animated comic in a **dark, earthy palette**: peat-brown pages, leather-toned panels, bone-white lettering, ochre captions, rust for things going wrong and moss for things going right, all with heavy ink and faint halftone. Panels slide in as the story happens. Direction set by the 2026-10-23 combat prototype.
 
 ## Panel Language
 
