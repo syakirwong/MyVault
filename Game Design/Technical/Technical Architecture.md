@@ -12,6 +12,7 @@ tags:
 **Status:** Draft
 **Date:** 2026-03-06
 **Context:** Stormbound Online is a reactive text-based MMORPG requiring server-authoritative combat, NPC-mediated economy, behavioral identity tracking, gem provenance, and social hubs supporting 200+ concurrent players. This document defines the technical architecture to support these systems at MVP and at scale.
+**Implementation language (2026-10-23):** TypeScript end-to-end. The MVP runs a reduced infrastructure profile (no NATS, TimescaleDB or EKS). See [[Web Build Plan]] for the stack, repo layout and build order.
 
 ---
 
@@ -764,6 +765,7 @@ Code Push → GitHub Actions
 ## Related Pages
 
 - [[GDD Hub]] -- Master game design document index
+- [[Web Build Plan]] -- TypeScript stack, MVP infrastructure profile, build order
 - [[Combat System]] -- Phase-based combat specification
 - [[Gem Identity System]] -- Gem domains, resonance, archetype naming
 - [[Economy Model]] -- Currency, source/sink rates, price anchors

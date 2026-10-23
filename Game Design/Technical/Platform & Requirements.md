@@ -198,6 +198,9 @@ There is no content, cosmetic, or mechanical feature available on one platform b
 
 These are high-level design recommendations. Engineering decisions on specific libraries and versions are deferred to implementation.
 
+> [!success] Decided 2026-10-23
+> TypeScript end-to-end, with **SvelteKit** as the UI framework. See [[Web Build Plan]].
+
 ### Frontend
 
 | Layer | Recommendation | Rationale |
