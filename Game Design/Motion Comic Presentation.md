@@ -15,7 +15,7 @@ The game reads like an animated comic in a **dark, earthy palette**: peat-brown 
 
 | Element | Choice |
 |---|---|
-| Titles, names, labels | **Big Shoulders Display**: tall, condensed, industrial, in uppercase with wide letter-spacing |
+| Titles, names, labels | **Alegreya SC**: pen-drawn small capitals, literary and slightly weathered. No forced all-caps (chosen 2026-10-23 from a six-font specimen, replacing Big Shoulders Display) |
 | Narration and dialogue | **Crimson Pro**: a literary serif. Captions in italic |
 | Mechanics text | **Archivo**, small and quiet |
 | Palette | Peat and leather browns, bone text, aged-bone caption boxes, ochre accent, rust for loss, moss for success |

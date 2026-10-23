@@ -94,6 +94,7 @@ See [[Story Structure#Episode 1 — Salvage Rights]].
 | [[Narrative Tech Plan]] | TypeScript + ink, saves, PWA, build order |
 | [[Tone & Content]] | Emotional range, rules for dark content, rating, content settings, distribution |
 | [[Relationships & Life Events]] | Friendship, rivalry, romance, marriage, divorce, jail, other life events |
+| [[Inventory & Equipment]] | The hold, the paper-doll character view with six slots, gems and sockets, resonance and dissonance, upgrading |
 | [[Gear, Relics & Reliquaries]] | Gear tiers and slots, six named Legendary relics, Mythic reliquaries and how to open them, fairness rules |
 | [[Professions & Advancement]] | Professions, tiers, branching story-decided Paths for each crew member and the captain |
 | [[Workshop & Crafts]] | Botany, chemistry and smithing aboard ship: crafted items for calls, story choices, gem strain, the psyche and jailbreaks |
