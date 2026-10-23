@@ -19,3 +19,6 @@ Reactive text-based MMORPG — build experimentation through dynamic UI, not gra
 - [[UI Design]] | [[Cosmetic System]]
 - [[Creator Ecosystem]] | [[Social Hubs]]
 - [[MVP Design]] | [[Monetization]] | [[Long-Term Vision]]
+
+## Research
+- [[PKO Teardown]] — Pirate King Online reverse-engineering reference
