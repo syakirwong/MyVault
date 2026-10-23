@@ -307,6 +307,18 @@ Multiple endgame tracks running in parallel prevent any single track from being 
 
 ---
 
+## Tide Windows (Scheduled Content)
+
+Adapted from PKO's timed portal cycle. Scheduled windows create appointment play and a shared rhythm in the hubs.
+
+- Fixed cadence: **every 3 hours** (8 windows per day), so every time zone gets several.
+- Each window lasts 20 minutes. A countdown is shown in the hubs and via [[Notification & Mail System|notifications]] for players who opt in.
+- Rotates through: world boss spawn, [[PvP Structure#Last Tide (Free-for-All Event)|Last Tide]] (3 of the 8 windows), and a bonus-drop Farming Dungeon gate.
+- **No-FOMO compliance:** missing a window costs nothing permanent. The same content recurs within hours, per [[Gameplay Loops#Anti-Churn Mechanics]].
+- The weekly featured world boss stays as above, and it spawns in the Tide Windows of its week.
+
+---
+
 ## Related Pages
 
 - [[Combat System]] -- Moment-to-moment combat mechanics

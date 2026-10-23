@@ -365,6 +365,61 @@ Most are non-viable. Filtering for synergy and competitive viability:
 
 ---
 
+## Numeric Model & Balance Levers
+
+> [!info] Source
+> Adopted from [[PKO - Stat Formulas]]. PKO runs ten classes off one shared formula with per-class coefficients, all in integer per-mille math. That structure is cheap to balance and impossible to drift.
+
+### One Formula, Coefficient Tables
+
+- Every gem resolves through the formulas in this document **unchanged**. No gem gets bespoke damage code.
+- Gem identity lives entirely in data:
+  - base power (rarity table above)
+  - domain stat contribution ([[Stats System#Stat Contribution Per Gem Domain]])
+  - scaling stat
+  - PvP coefficient ([[PvP Structure#Balance Framework]])
+- Balance patches change **coefficients, never formula shape**. A balance patch note is a diff of the coefficient tables.
+- A new mechanic that cannot be expressed as a coefficient needs design review before any code is written.
+
+### Integer Per-Mille Representation
+
+- All percentages are stored as integers in **per-mille**: `1000` = 100%, so +12% damage is `120`.
+- The server never uses floating point for combat or economy values. Every Combat Resolver instance, replay and simulator produces identical results.
+- Rounding: floor once at each layer boundary in the stack order below, never mid-layer.
+
+```
+Layer_Out = floor(Layer_In * (1000 + Layer_Mods_permille) / 1000)
+```
+
+### Stack Order
+
+The cross-category multiplicative stack is evaluated in a fixed order. Because each layer floors, order affects the last integer. Fixing the order is what keeps the server and the [[Creator Ecosystem#Build Lab & Public Database|Build Lab]] in exact agreement.
+
+1. Primary stats: level + origin + gems + gear, then the soft-cap curve
+2. Base damage (`Skill_Gem_Power * (1 + Stat_Scaling)`)
+3. Damage category
+4. Crit category
+5. Element category
+6. Alignment Factor
+
+### Curve Rule
+
+**No stat or modifier curve may be convex** (marginal return rising with investment). PKO's squared stat terms collapse every class into a mono-stat build. Stormbound's soft cap is concave by design, and this rule keeps it that way through future patches.
+
+### Published Breakpoints
+
+Breakpoints are features. Players hunt for them, so they are listed here and drawn in the [[UI Design#Build Panel|Build Panel]].
+
+| Breakpoint | Value | Effect |
+|---|---|---|
+| Primary stat soft cap | 200 | Marginal scaling drops from 1.00 to 0.20 per 100 points |
+| Same-type modifier, 2nd copy | 2 | 75% value |
+| Same-type modifier, 3rd copy | 3 | 50% value |
+
+Any future hard cap (attack speed, crit chance and so on) must be added to this table before it ships.
+
+---
+
 ## Related Pages
 
 - [[Gem System]] -- System overview and design philosophy

@@ -202,7 +202,8 @@ body {
 .theme-dark .nav-file-title,
 .theme-dark .nav-folder-title {
   border-radius: 4px;
-  transition: all 0.15s ease;
+  /* Colour-only: `all` animates the layout of the virtualised file tree and leaves rows blank */
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .theme-dark .nav-file-title:hover,

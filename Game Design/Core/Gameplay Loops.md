@@ -43,6 +43,7 @@ Each session should feel complete. A player who logs in for 30 minutes should wa
 - **Challenge Mode modifiers** — weekly dungeon modifier rotations shift the meta, forcing build adaptation (see [[PvE Structure]])
 - **Solo Trial rotation** — weekly trial tests different combat axes (burst, sustain, mobility)
 - **PvP season progression** — weekly point thresholds and ranked milestones (see [[PvP Structure]])
+- **Tide Hours** — a small free weekly XP boost the player switches on when they choose (see [[Experience & Levelling#Tide Hours (Weekly Boost)]])
 - **Trade route shifts** — supply and demand changes across regions, creating new arbitrage opportunities (see [[Trade System]])
 - **Community build challenges** — themed constraints that reward creative solutions (see [[Creator Ecosystem]])
 

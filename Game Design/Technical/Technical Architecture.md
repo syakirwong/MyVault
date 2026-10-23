@@ -81,6 +81,22 @@ tags:
 
 ---
 
+### Shared Rules Package
+
+All game math lives in **one** pure, deterministic module, the rules package. It has no I/O, no clock and no randomness of its own (RNG seeds are passed in).
+
+| Contains | Excludes |
+|---|---|
+| Every formula in [[Gem System Math]], the stack order, integer per-mille helpers | Network, persistence, timers |
+| Coefficient tables (gems, modifiers, origins, PvP coefficients) as versioned data | Live economy prices |
+
+**Consumers:** Combat Resolver, Economy Service (appraisal inputs), the client Build Panel, the public Build Lab, and the public game database generator.
+
+- Built once per release and compiled for the server and the web/client targets. The package version is a content hash shown in the client footer and the Build Lab.
+- **Golden tests:** a fixed corpus of builds with expected integer outputs. The server build and the web build run the same suite in CI, and any mismatch fails the release.
+- The public game database is a static site generated at build time from the same coefficient tables, so it cannot disagree with the game.
+- *Why:* PKO's community simulator hand-ports server formulas into JavaScript and can silently drift (see [[PKO - Tech & Infrastructure]]). For a game whose core loop is build experimentation, a simulator that lies is a trust failure.
+
 ## 2. Client-Server Authority Model
 
 ### Authority Distribution
@@ -712,6 +728,8 @@ Code Push → GitHub Actions
 5. **No direct player-to-player asset transfer exists at any layer.** The NPC intermediation model is structural, not a policy. No API endpoint, no internal service call, no admin tool should enable P2P transfer.
 6. **The server is the timer authority for combat Commit phases.** Client timers are cosmetic.
 7. **Gem mutation lock-in must survive server failure.** WAL guarantees intent persistence.
+8. **Game math exists in exactly one place: the Shared Rules Package.** No service, client or website may hand-port a formula.
+9. **Combat and economy values are integers.** Percentages are per-mille. No floating point in server-side game math.
 
 ---
 

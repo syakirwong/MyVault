@@ -93,6 +93,18 @@ The unified specification for all player-to-player text communication in Stormbo
 - Higher rate limiting than other channels (see [[#Rate Limiting]])
 - Not region-scoped — all messages visible to all eligible players on the server
 
+**Gold cost per message** (adapted from PKO's paid world chat; spam control that doubles as a sink):
+
+| Messages in a rolling 10 minutes | Cost per message |
+|---|---|
+| 1st-3rd | 25 gold |
+| 4th-6th | 50 gold |
+| 7th+ | 100 gold |
+
+- The cost is shown on the send button before posting. A rejected message (filter or rate limit) is refunded.
+- Guild, party, region, whisper and trade chat stay free.
+- Listed in [[Economy Model#Sink Rates]].
+
 ### Channel Switching
 
 - **Keyboard shortcut:** `/r` (Region), `/p` (Party), `/g` (Guild), `/f` (Faction), `/w [player]` (Whisper), `/t` (Trade), `/gl` (Global)

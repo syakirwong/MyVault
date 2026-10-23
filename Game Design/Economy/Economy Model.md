@@ -111,6 +111,7 @@ Combat performance modifies dungeon gold rewards:
 | Mutation catalyst use | 50-300 gold + shards | Per catalyst | Voluntary stability sacrifice |
 | Prestige purchases | 500-10,000 gold | Optional | Cosmetic titles, build card borders |
 | Guild upkeep | 1,000-5,000 gold/week | Weekly | Guild size-based |
+| Global Chat posting | 25-100 gold | Per message | Escalates with frequency. See [[Chat & Communication System#Global Chat]] |
 
 **Design intent:** NPC marketplace spread is the primary sink at scale. Insurance and storage fees create recurring costs tied to core loops. Prestige purchases serve as wealth sinks for veterans.
 

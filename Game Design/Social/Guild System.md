@@ -600,6 +600,7 @@ When 3+ guild members form a dungeon party:
 - 3v3 Skirmish can be queued as a guild team -- earns guild reputation alongside personal honor
 - Arena League faction reputation (see [[Factions System#Stormreach Arena League]]) counts toward guild faction milestones
 - Guild War results feed into the quarterly War Season leaderboard
+- **Guild immunity:** guildmates cannot damage each other in open-world PvP zones or in [[PvP Structure#Last Tide (Free-for-All Event)|Last Tide]]. Combat actions targeting a guildmate are rejected server-side. Alliance members are *not* immune by default; a Leader can toggle alliance immunity per alliance. Adapted from PKO, where this one rule is the main practical reason to join a guild for contested content.
 
 ---
 

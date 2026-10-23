@@ -57,6 +57,10 @@ The gem loadout and customization interface.
 | **Build Stats** | Calculated DPS, survivability, utility scores |
 | **Build Code** | Shareable build string for creator ecosystem |
 | **Alignment Indicator** | Current alignment + depth tier with color coding |
+| **Breakpoint Markers** | Each stat bar shows published breakpoints (e.g. the 200 soft cap) from [[Gem System Math#Published Breakpoints]]. Points past a breakpoint render dimmed |
+| **Rules Version** | Small footer tag showing the Shared Rules Package version the numbers come from |
+
+Build Stats are computed by the [[Technical Architecture#Shared Rules Package|Shared Rules Package]]. The numbers on this panel are exactly the numbers the server uses.
 
 ---
 

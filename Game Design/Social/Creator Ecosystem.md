@@ -24,6 +24,26 @@ Players become build creators -- theorycrafters who publish, iterate, and gain r
 
 ---
 
+## Build Lab & Public Database
+
+> [!info] Source
+> PKO's community runs on a public item and monster database plus a build simulator ([[PKO - Tech & Infrastructure]]). For Stormbound these are core features, not fan extras.
+
+### Build Lab (web)
+
+- Usable without logging in. Logging in is only needed to publish or to pull your owned gems.
+- Paste a Build Code to get the full stat sheet, power-budget breakdown, breakpoint markers and DPS model, computed by the same [[Technical Architecture#Shared Rules Package|Shared Rules Package]] as the server.
+- Theorycraft with gems you don't own. A ghost-slot marks unowned gems so the build still exports as a code.
+- Side-by-side compare (powers the comparison tool below) and one-click Fork.
+
+### Public Game Database
+
+- Every gem, modifier, origin, monster and dungeon, generated from the shipped game data each release.
+- Deep links double as chat item links ([[Chat & Communication System#Item Linking]]).
+- **Discovery guard:** Mythic dungeon mechanics and boss scripts are withheld from the database until the first server-wide clear. PKO publishes everything, so static content gets solved on day one.
+
+---
+
 ## Creator Profiles
 
 - Public profile page showing all published builds.

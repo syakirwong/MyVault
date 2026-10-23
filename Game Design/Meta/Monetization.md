@@ -49,7 +49,7 @@ NO PAY-TO-WIN. Period. Power is earned through gameplay only.
 ## What We Will NEVER Sell
 
 - Gems or gem power
-- Experience boosters
+- Experience boosters (including the free weekly [[Experience & Levelling#Tide Hours (Weekly Boost)|Tide Hours]], which can never be bought or extended)
 - Gold or currency
 - Gear with stats
 - Inventory expansion that affects gameplay

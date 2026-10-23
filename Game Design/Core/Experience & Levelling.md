@@ -146,6 +146,19 @@ Prestige 51: 100,000 XP. Prestige 60: 1,100,000 XP. Total for all 10 prestige le
 
 ---
 
+## Tide Hours (Weekly Boost)
+
+Adapted from PKO's weekly boost hours: a free, player-controlled boost.
+
+- Every character receives **4 Tide Hours per week**, refreshed at the weekly reset.
+- While switched on, primary-source XP is +50%. Hours only tick down while switched on **and** in combat or questing; idling in a hub does not burn them.
+- Toggle it on or off at any time from the hub.
+- **Does not stack with [[#Rested XP]].** The higher bonus applies, and the other bank is not drained while it is unused.
+- Unused hours expire at reset and do not carry over. The amount is deliberately small (4 h) so missing a week never feels like a loss, consistent with [[Gameplay Loops#Anti-Churn Mechanics]].
+- **Never purchasable, extendable or tradeable.** See [[Monetization#What We Will NEVER Sell]].
+
+---
+
 ## Level Scaling in Group Content
 
 - **Downscaling:** High-level players in low-level content have stats reduced to zone-appropriate levels. Gem loadout remains — you keep your options, not your numbers
