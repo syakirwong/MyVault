@@ -136,6 +136,7 @@ Every region has a **dominant domain** and a **secondary domain** that shape the
 
 - **Fast travel** between discovered hubs (instant, gold cost scaling with distance)
 - **Sea travel** between island chains (text-based journey with random encounter events — ambient combat, trade opportunities, lore discoveries)
+- **Voyage Contracts** (Post-MVP) turn sea travel into a cargo-trading loop built from event cards. See [[Trade System#Voyage Contracts (Post-MVP)]]
 - **Location list** with level recommendations, dominant domain indicator, and available content badges (dungeon, PvP, world boss, faction)
 - **Region descriptions** update dynamically based on active world events, faction control state, and player alignment
 

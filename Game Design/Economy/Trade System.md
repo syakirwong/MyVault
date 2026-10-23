@@ -66,8 +66,14 @@ Resonance Bonus:
 Crafter Signature:
   +5-15% for signed gems (scales with crafter reputation)
 
-Final Price = Base Value × (1 + Mutation + Mastery + Resonance + Signature)
+Market Factor:
+  30-day volume-weighted average of completed sales ÷ static Base Value
+  (completed sales weighted 3x vs listings), clamped to 0.80–1.20
+
+Final Price = Base Value × (1 + Mutation + Mastery + Resonance + Signature) × Market Factor
 ```
+
+**Market Factor** makes appraisal respond to player supply. If players flood the market with Kinetics Rares, those gems' price drops by up to 20% and recovers as supply normalizes. This keeps the market from being "solved" from a static table (a PKO avoid-list item; see [[PKO - Sea Trade Economy]]). The averaging and manipulation defenses are specified in [[Economy Stress Test]]. This term formalizes the 30-day weighted average that document already assumes.
 
 ### Buying Process
 
@@ -152,6 +158,41 @@ Crafters can offer services to other players through NPC-mediated commissions.
 - Crafter reputation is public and persistent
 
 This preserves the **social crafter identity** — master crafters build reputations and attract commissions — without enabling direct P2P asset transfer.
+
+## Voyage Contracts (Post-MVP)
+
+> [!info] Source
+> Adapted from PKO's sea trade ([[PKO - Sea Trade Economy]]). PKO's version is a static ~2× arbitrage table that was solved on day one. Stormbound turns it into a decision loop built from cards.
+
+Voyage Contracts are the trading layer on top of existing [[World Design#Travel System|sea travel]]. They're run by the Port Haven Trade Guild. Every step goes through NPCs; there is no player-to-player transfer ([[Technical Architecture#Constraints (Must Not Violate)]] #5).
+
+### Loop
+
+1. **Buy cargo** from a port's Trade Guild NPC. Each port sells 3-5 regional goods tied to its [[World Design#Gem Domain Ecology|domain ecology]].
+2. **Choose a route and risk tier.** Calm, Contested or Storm-lane. Higher risk means more event cards and better destination prices.
+3. **Sail.** The voyage plays as 3-5 **event cards** drawn from the route's deck: squall, pirate cutter, derelict, becalmed, rival trader, sea-beast. Each card offers 2-3 choices resolved with your build (combat with your normal gems, stat checks, or spending gold or cargo).
+4. **Deliver** to a destination port NPC at that port's current price.
+
+### Pricing
+
+- Destination price = base value × route distance factor × **Port Demand**.
+- **Port Demand** starts at 1.00 and falls 2% per cargo unit delivered server-wide in the last 24 hours (floor 0.70), then recovers over time. The best route moves around and players spread out, which is the dynamic-pricing fix from the avoid list.
+- Prices are shown as a ±10% band before you sail. Enough to plan with, while leaving some uncertainty.
+
+### Risk and Sinks
+
+| Element | Effect |
+|---|---|
+| Cargo insurance | 5-15% of cargo value by risk tier. Covers 75% of cargo lost to event cards |
+| Port tariff | 5% of sale value on delivery. A gold sink |
+| Event losses | Failed event cards cost 10-40% of cargo |
+| Contract cap | 3 Voyage Contracts per character per day. Keeps the faucet within the [[Economy Model]] deflation target |
+
+### Rewards
+
+- Net margin targets 1.3-1.6× cargo cost after tariff and insurance. Gold per hour is in line with Challenge dungeons (see [[Economy Model#Source Rates (per hour of active play)]]).
+- Trade Guild reputation, voyage-log titles, and rare event cards that seed lore discoveries.
+- Naval PvP ([[PvP Structure#Naval PvP (Post-MVP)]]) later layers guild-controlled routes over the Contested and Storm lanes.
 
 ---
 

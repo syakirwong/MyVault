@@ -44,6 +44,7 @@ Modifier gems do not function alone. They attach to a skill gem and change how t
 - Each player has **4 Skill Gem slots**
 - Each Skill Gem has **2-3 Modifier Gem slots** (determined by gem rarity/tier)
 - Total modifier capacity per build: **8-12 modifiers**
+- **Post-MVP:** 1 Companion Gem slot (see [[#Companion Gem (Post-MVP)]])
 
 ### Slot Allocation by Rarity
 
@@ -161,6 +162,14 @@ where M = Mastery Level. See [[Gem System Math]] for full derivation.
 
 Mastery 10 requires approximately **40 hours of active use across diverse content**. This is intentionally long -- mastery is a statement of commitment, not a checkbox.
 
+### Mastery Echo
+
+A gem permanently destroyed in high-risk content ([[Death & Defeat System]]) leaves a **Mastery Echo** on the character for that domain + skill.
+
+- The next gem of the same skill the player shapes or acquires starts at **50% of the destroyed gem's mastery XP**.
+- Echoes don't stack. A new echo replaces the old one only if it is higher.
+- *Why:* Mastery 10 is about 40 hours. Losing all of it to one bad round is the PKO-style compounding loss the avoid list rules out. The echo keeps breakage meaningful (half the investment is gone, plus the gem itself) without erasing a player's history.
+
 ---
 
 ## Gem Interaction Rules
@@ -171,6 +180,39 @@ Mastery 10 requires approximately **40 hours of active use across diverse conten
 4. **Alignment Interaction**: The player's alignment modifies ALL equipped gems simultaneously. Switching alignment changes every skill's behavior. See [[Alignment System]] for alignment depth mechanics.
 5. **No Duplicate Modifiers**: You cannot slot the same modifier gem twice on a single skill gem.
 6. **Cross-Skill Duplicates Allowed**: The same modifier type can appear on different skill gems within a build.
+
+## Companion Gem (Post-MVP)
+
+> [!info] Source
+> Adapted from PKO's fairy pets ([[PKO - Social, Endgame & Monetization]]): slow passive growth and breeding. PKO's premium-currency feeding, failed level-ups and paid breeding fruit are left out.
+
+A companion is a gem in its own slot. It is a bonded creature or construct that travels with the character.
+
+| Property | Rule |
+|---|---|
+| Slots | 1, separate from the 4 Skill Gem slots |
+| Stats | ~8 stat points (a quarter of a Skill Gem) in its domain spread ([[Stats System#Stat Contribution Per Gem Domain]]) |
+| Traits | 1 active trait (once per fight, e.g. *Scout*: reveal one extra enemy intent) + 1 passive trait (e.g. *Mender*: +3% Integrity regen per round) |
+| Power budget | Counts **inside** the 80-100 build budget, Utility/Support axes only, ≤5 points ([[Gem System Math#Power Budget Per Build]]) |
+| Stability | None. Companions never break, so they are the safe long-term investment |
+| Enables | The [[Modifier Gems Reference|Companion Echo]] modifier |
+
+### Bond (Growth Meter)
+
+- Bond 1-10, filled by rounds fought with the companion equipped. Reaching Bond 10 takes about 20 hours.
+- Bond raises trait potency from 100% to 150%. It never adds stats.
+- **No feeding, no consumables, no failure chance, nothing purchasable.** Growth comes only from playing.
+
+### Companion Fusion
+
+- Two Bond 10 companions are fused at a Gem Shaper ([[Crafting System#Gem Shaping]]).
+- The player **chooses** one trait from each parent for the offspring. The result is deterministic, with no RNG.
+- The offspring starts at Bond 1, and both parents return to Bond 5. Fusing costs time, not the companions themselves.
+- Rare trait combinations can be published to the Resonance Journal, as with resonances.
+
+### Monetization
+
+Companion skins are cosmetic-only shop items ([[Cosmetic System]]). Bond, traits and fusion can never be bought ([[Monetization#What We Will NEVER Sell]]).
 
 ---
 

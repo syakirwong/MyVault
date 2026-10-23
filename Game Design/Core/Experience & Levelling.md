@@ -32,7 +32,7 @@ The level cap is reachable. The real game begins at 50. Everything before it is 
 | **Shaper** | +15 Precision, +10 Attunement | **Maker's Eye:** Crafted items have +3% quality bonus | Sees the world as raw material |
 
 **Rules:**
-- Origin is chosen at character creation and is **permanent**
+- Origin is chosen at character creation and is **permanent**, except through [[#Rebirth (Prestige 60)|Rebirth]]
 - Origin stat bias is a flat bonus — it does not scale with level
 - Origin passive is always active — it cannot be unequipped
 - Origin does NOT restrict gem access. A Stormborn can equip Aegis + Synthesis just as well as an Ironsworn
@@ -134,6 +134,19 @@ Prestige 51: 100,000 XP. Prestige 60: 1,100,000 XP. Total for all 10 prestige le
 | 60 | +1% all stats (cumulative **5% max**). Title: "Paragon of [Origin]" |
 
 **Hard rule:** Total prestige stat bonus never exceeds 5%. A prestige 60 player has at most a 5% stat edge over a fresh level 50 player. This gap is closeable through build quality alone.
+
+## Rebirth (Prestige 60)
+
+> [!info] Source
+> Adapted from PKO's Rebirth ([[PKO - Core Systems]]): a big milestone that gives a small permanent gain plus a full respec. In Stormbound, gems already respec freely, so the respec here is the one permanent choice a character has: their **Origin**.
+
+- **Unlock:** Prestige 60. A Rebirth questline (lore: the character's gem matrix "re-tides") with a solo Trial and a Mythic-tier boss.
+- **On completion:**
+  - **Re-pick Origin.** All 6 are available, including your current one.
+  - Prestige level resets to 50, and the prestige XP track restarts. **All prestige rewards are kept, including the 5% stat bonus.** The track then pays out a new *Reborn* cosmetic tier: a combat log voice, an aura variant, and the title "Twice-Tided".
+  - **Origin Echo:** a cosmetic trace of the previous Origin on the build card and in combat-log flavor text. It has no mechanical effect.
+- **No extra stats.** The [[#Prestige Levels (50-60)|5% hard rule]] holds across any number of Rebirths. PKO's ±5.5% is replaced here by the existing prestige bonus.
+- Rebirth can be repeated, with the track restarting each time. Each Rebirth adds a numeral to the title.
 
 ---
 

@@ -122,7 +122,8 @@ The crafting path is the primary pity mechanism — if drops don't cooperate, pl
 - Escalation resets on drop
 - Escalation is per-player, tracked server-side
 - Escalation does NOT apply to Farming Dungeons (those are volume-based, not rarity-based)
-- Players are never told the exact escalation number — they just feel "luckier" over time
+- Base rates, escalation step and cap (this table) are **published** in the [[Creator Ecosystem#Build Lab & Public Database|Public Game Database]]. A player's live escalation counter is not shown, so it still reads as luck rather than a progress meter
+- *Why published:* hidden odds are a PKO avoid-list item. Players should always be able to see what they're rolling against
 
 ---
 

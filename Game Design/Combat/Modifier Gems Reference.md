@@ -130,7 +130,7 @@ Synergy modifiers reward specific build choices, playstyles, or alignment invest
 
 ### Synergy Modifier Notes
 
-- **Companion Echo** requires the player to have a companion active (summoned creature, Synthesis construct, or companion from NPC questline). The companion attack scales with the companion's stats, not the skill gem's. The 40% value is a base -- companion gear and talents modify it further.
+- **Companion Echo** requires the player to have a companion active (summoned creature, Synthesis construct, companion from NPC questline, or an equipped [[Gem System#Companion Gem (Post-MVP)|Companion Gem]]). The companion attack scales with the companion's stats, not the skill gem's. The 40% value is a base -- companion gear and talents modify it further.
 - **Alignment Surge** scales with alignment depth (0-100 scale). At maximum alignment depth (100): `5 * (100/20) = 25%` bonus. This is a significant reward for deep alignment commitment but comes at the cost of flexibility.
 
   | Alignment Depth | Bonus from Alignment Surge |

@@ -13,6 +13,10 @@ Account security in Stormbound Online is not a feature bolted onto the game — 
 
 Every decision below optimizes for **player trust and economic integrity** while minimizing friction for legitimate players.
 
+### Security Is Never Monetized
+
+Every security feature in this document (2FA, device binding, trusted devices, recovery and breach detection) is free and available from character level 1. No security feature may be sold or gated behind progression or premium currency ([[Monetization#What We Will NEVER Sell]]). The 2FA incentive below rewards adoption with cosmetics; it never charges for protection.
+
 ---
 
 ## 1. Account Creation Flow

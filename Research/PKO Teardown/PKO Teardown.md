@@ -43,6 +43,9 @@ No logins, no game client and no server probing.
 
 ## Lessons for Stormbound
 
+> [!success] Applied to the GDD on 2026-10-23
+> The Steal, Avoid and Adapt items below have been written into the relevant Stormbound notes. Search the vault for "Adapted from PKO" or "Avoid-list item" to find each change.
+
 ### Steal
 
 1. **One formula, per-archetype coefficients.** This is easy to balance and easy to explain. Map it onto gem affinities; see [[PKO - Stat Formulas]] and [[Gem System Math]].

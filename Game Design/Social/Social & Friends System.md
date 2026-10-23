@@ -329,6 +329,14 @@ The Social Panel is accessible from the Hub Panel and contains all social featur
 | **LFG** | LFG board (browse/post) and auto-match queue |
 | **Blocked** | Block list management |
 
+## Mentorship (Not Planned — Guardrail)
+
+There is no player mentor system at MVP. Tutorial mentoring is NPC-led ([[Onboarding System]]). If one is added later:
+
+- Mentor rewards are paid **only on disciple milestones**: the disciple reaching a level band, a first dungeon clear, first Mastery 5. They are never paid for time spent together or for simply being linked.
+- Rewards are capped per mentor per week, and a disciple can only be claimed once, to stop alt farming.
+- *Why:* in PKO, mentors earn reputation whether or not the disciple is actually helped, which turns mentorship into a farm ([[PKO - Core Systems]]).
+
 ---
 
 ## MVP Scope

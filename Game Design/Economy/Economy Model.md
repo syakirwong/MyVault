@@ -82,6 +82,7 @@ Honor rewards competitive engagement without distorting the gem economy.
 | PvP Arena | 50-100 | 0 | 0 | Honor primary reward |
 | Crafting (NPC sales) | Variable | -shards | 0 | Economy-driven |
 | Salvaging | 20-50 | 5-15 | 0 | Gem quality determines yield |
+| Voyage Contracts (Post-MVP) | 200-300 (net) | 0-2 | 0 | Capped at 3/day; Port Demand decays with volume. See [[Trade System#Voyage Contracts (Post-MVP)]] |
 
 **Design intent:** Dungeons are the gold generation baseline. High-risk dungeons offer the best rates but risk gem breakage. Salvaging is the primary shard source, creating a recycling loop.
 
@@ -112,6 +113,7 @@ Combat performance modifies dungeon gold rewards:
 | Prestige purchases | 500-10,000 gold | Optional | Cosmetic titles, build card borders |
 | Guild upkeep | 1,000-5,000 gold/week | Weekly | Guild size-based |
 | Global Chat posting | 25-100 gold | Per message | Escalates with frequency. See [[Chat & Communication System#Global Chat]] |
+| Voyage tariff + cargo insurance | 5% of sale + 5-15% of cargo | Per voyage | Post-MVP. Offsets the Voyage Contract faucet |
 
 **Design intent:** NPC marketplace spread is the primary sink at scale. Insurance and storage fees create recurring costs tied to core loops. Prestige purchases serve as wealth sinks for veterans.
 

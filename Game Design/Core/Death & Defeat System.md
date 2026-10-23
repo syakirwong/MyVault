@@ -137,6 +137,8 @@ Insurance is purchased at the dungeon entrance from [[NPC System#Dungeon Guide P
 
 **Design intent:** Insurance is a meaningful gold sink that scales with risk tolerance. Experienced players running familiar Mythic content may skip insurance. Players pushing new Mythic content with expensive gems will pay. This creates an economy loop tied directly to the highest-stakes gameplay. See [[Economy Model#Sink Rates]].
 
+Destruction never erases mastery entirely. A destroyed gem leaves a [[Gem System#Mastery Echo|Mastery Echo]] that restores 50% of its mastery XP to the next copy.
+
 ---
 
 ## World Boss Defeat

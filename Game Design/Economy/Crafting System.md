@@ -15,6 +15,19 @@ Crafting mirrors combat: plan, commit, adapt. A master crafter reads material pr
 
 All players can learn all four disciplines. Specialization comes from mastery depth, not arbitrary locks. Without P2P trading, there is no reason to restrict disciplines — depth replaces scarcity.
 
+### Failure Rules (Guardrail)
+
+> [!warning] Avoid-list item
+> PKO's gem forging chains several fail-and-destroy rolls: getting one socket to max expects about 195 starter gems ([[PKO - Economy & Crafting]]). Stormbound crafting must never work like that.
+
+Any crafting action with a chance to miss must satisfy all three rules:
+
+1. **The base item is never destroyed by a failed craft.** Only the consumed catalyst or materials are at risk.
+2. **Pity counter:** consecutive misses on the same item raise the success chance, ending in a guaranteed success. The counter is tracked server-side per item.
+3. **One roll per action.** No action may require several sequential successes where any single failure resets progress.
+
+Gem destruction stays where it belongs: in telegraphed, opt-in high-risk combat ([[Death & Defeat System]]), never in the crafting menu.
+
 ---
 
 ## Crafting Disciplines
@@ -31,7 +44,8 @@ The core discipline. Gem Shapers create base gems, upgrade rarity tiers, and set
 | Shape Epic Gem | 40 | 100 Shards + 3 Mythic materials | Epic gem (chosen domain) |
 | Shape Legendary Gem | 50 | 200 Shards + 10 Mythic + 5 Resonance Tokens | Legendary gem (chosen domain) |
 | Upgrade Rarity | 20 | Gem + Shards + tier materials | Increase gem rarity by 1 tier (resets mutations) |
-| Set Mutation Bias | 25 | Gem + catalyst + 50 gold | Bias next mutation toward a specific direction (not guaranteed) |
+| Set Mutation Bias | 25 | Gem + catalyst + 50 gold | Bias next mutation toward a specific direction (not guaranteed; **pity:** guaranteed on the 4th attempt after 3 consecutive misses on the same gem, per [[#Failure Rules (Guardrail)]]) |
+| Companion Fusion (Post-MVP) | 40 | Two Bond 10 companion gems + 50 Shards | New companion; player picks 1 trait from each parent; parents return to Bond 5. See [[Gem System#Companion Fusion]] |
 
 **Legendary gems are craft-exclusive.** They never drop from any content. This ensures permanent demand for Gem Shaping.
 

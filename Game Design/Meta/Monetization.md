@@ -54,6 +54,12 @@ NO PAY-TO-WIN. Period. Power is earned through gameplay only.
 - Gear with stats
 - Inventory expansion that affects gameplay
 - Anything that gives combat advantage
+- **Account security of any kind**: 2FA, device binding, recovery, or any protection against theft or scams. PKO sells item locks for premium currency; Stormbound never charges for safety. See [[Account & Security System]]
+
+### Randomized Rewards
+
+- The store sells **no randomized items**: no loot boxes and no gacha cosmetics. Every purchase shows exactly what you get.
+- Any randomized reward in gameplay (drops, crafting outcomes) has its odds published (see [[Loot System#Bad Luck Protection]]).
 
 ---
 
