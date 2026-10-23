@@ -8,16 +8,30 @@ status: active
 
 # Motion Comic Presentation
 
-The game reads like an animated comic in a **dark, earthy palette**: peat-brown pages, leather-toned panels, bone-white lettering, ochre captions, rust for things going wrong and moss for things going right, all with heavy ink and faint halftone. Panels slide in as the story happens. Direction set by the 2026-10-23 combat prototype.
+The game reads like an animated comic in a **dark, earthy palette**: peat-brown pages, leather-toned panels, bone-white lettering, ochre captions, rust for things going wrong and moss for things going right, in graphic-novel-noir style. Panels bleed in as the story happens. Direction set by the 2026-10-23 combat prototype.
+
+
+## Visual Direction: Graphic Novel Noir (chosen 2026-10-23)
+
+| Element | Choice |
+|---|---|
+| Titles, names, labels | **Big Shoulders Display**: tall, condensed, industrial, in uppercase with wide letter-spacing |
+| Narration and dialogue | **Crimson Pro**: a literary serif. Captions in italic |
+| Mechanics text | **Archivo**, small and quiet |
+| Palette | Peat and leather browns, bone text, aged-bone caption boxes, ochre accent, rust for loss, moss for success |
+| Texture | Animated film grain and a vignette; chiaroscuro panel shadows |
+| Motion | Panels **bleed in** like ink (blur and wipe); impacts **cut hard** to black with a single colour slash; phase changes are full-screen title cards |
+| Impact words | Stark captions ("Too late", "Irons"), never cartoon sound effects |
+| Avoid | Tilted panels, bouncy overshoot, chunky offset shadows, speech-bubble tails, exclamation marks |
 
 ## Panel Language
 
 | Panel | Used for | Look |
 |---|---|---|
-| **Caption** | Narration | Yellow caption box |
-| **Speech** | A character talking | White balloon with a tail, name above |
-| **Tell / Observation** | What you notice; clues | White panel, italic, a small "What you see" tab |
-| **Impact** | Big moments: a reveal, a blow, a gem breaking | Coloured panel with spinning speed lines and a big lettered sound word |
+| **Caption** | Narration | Aged-bone caption box, italic serif |
+| **Speech** | A character talking | Rectangular dialogue block with the speaker's name in condensed caps above |
+| **Tell / Observation** | What you notice; clues | Dark panel, italic, a small "What you see" tab |
+| **Impact** | Big moments: a reveal, a blow, a gem breaking | Hard cut to black, one colour slash, a few stark words in condensed caps |
 | **Choice** | Decision points | Choices as large tappable cards stacked at the bottom of the screen |
 | **Consequence note** | "Tamsin saw that." | Small inked note under the panel |
 
@@ -25,12 +39,12 @@ The game reads like an animated comic in a **dark, earthy palette**: peat-brown 
 
 | Moment | Motion |
 |---|---|
-| A new panel | Slides in from the speaker's side with a slight overshoot |
-| Big reveal | Impact panel pops in, the sound word scales up, the screen shakes |
-| Choice locked in | The card gets stamped and the other options fall away |
+| A new panel | Bleeds in like ink: a short blur and a top-down wipe |
+| Big reveal | Hard cut to black, a colour slash, the words bleed into focus; a small screen jolt for violence only |
+| Choice locked in | The chosen option fills with ochre and the others fade away |
 | Loyalty shift | The consequence note inks in, letter by letter |
 | Gem strain rising | The crew member's name in panels starts to flicker in their gem colour |
-| Day change | Page turn |
+| Day change | Full-screen black title card ("Dawn", "The Watch") |
 
 Motion carries the emotion that illustration would otherwise carry. Use **one big moment per scene**; everything else stays small.
 
