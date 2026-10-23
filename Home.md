@@ -2,23 +2,21 @@
 tags: [home, gdd]
 ---
 
-# Stormbound Online
+# Stormbound
 
-Reactive text-based MMORPG — build experimentation through dynamic UI, not graphics.
+Single-player, choice-driven narrative game with a strategy layer. Mobile-first web, told as a motion comic.
 
 ## Start Here
-- [[GDD Hub]] — master index
+- [[Stormbound GDD]] — master index
 
-## Sections
-- [[Gameplay Loops]] | [[Progression Systems]] | [[Alignment System]]
-- [[Gem Identity System]] | [[Gem System]] | [[Gem System Math]]
-- [[Skill Gems Reference]] | [[Modifier Gems Reference]]
-- [[Combat System]]
-- [[PvE Structure]] | [[PvP Structure]] | [[World Design]] | [[NPC System]]
-- [[Economy Model]] | [[Economy Stress Test]] | [[Crafting System]] | [[Trade System]]
-- [[UI Design]] | [[Cosmetic System]]
-- [[Creator Ecosystem]] | [[Social Hubs]]
-- [[MVP Design]] | [[Monetization]] | [[Long-Term Vision]]
+## Design
+- [[Story Structure]] | [[Choice & Consequence]]
+- [[Crew & Bonds]] | [[Dispatch Board]] | [[Voyage Calendar]]
+- [[Motion Comic Presentation]] | [[Narrative Tech Plan]]
+
+## Source Material
+- [[Lore & Narrative]] | [[Factions System]] | [[Alignment System]] | [[NPC System]] — world and lore, still canon
+- [[GDD Hub|Archived MMO design]] — the original Stormbound Online MMO GDD, kept for reference
 
 ## Research
 - [[PKO Teardown]] — Pirate King Online reverse-engineering reference
